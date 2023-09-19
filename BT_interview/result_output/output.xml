@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.11 on win32)" generated="20230919 13:19:34.436" rpa="false" schemaversion="2">
+<suite id="s1" name="Testcase" source="C:\BT_interview\testcase.robot">
+<test id="s1-t1" name="testcase1">
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>3sec</arg>
+<arg>Launch url</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Launch url" library="macro">
+<doc>To launch the browser</doc>
+<status status="PASS" starttime="20230919 13:19:34.959" endtime="20230919 13:19:41.190"/>
+</kw>
+<status status="PASS" starttime="20230919 13:19:34.959" endtime="20230919 13:19:41.190"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>3sec</arg>
+<arg>Hover to "Mobile" menu and from "mobile" menu select "Mobile phones"</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Hover to &quot;Mobile&quot; menu and from &quot;mobile&quot; menu select &quot;Mobile phones&quot;" library="macro" sourcename="Hover to &quot;${control1:[^&quot;]+}&quot; menu and from &quot;${control2:[^&quot;]+}&quot; menu select &quot;${control3:[^&quot;]+}&quot;">
+<doc>To mouse hover on the element and click on the specified subitems</doc>
+<msg timestamp="20230919 13:19:41.540" level="FAIL">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=117.0.5938.89)
+</msg>
+<status status="FAIL" starttime="20230919 13:19:41.190" endtime="20230919 13:19:41.540"/>
+</kw>
+<kw name="Hover to &quot;Mobile&quot; menu and from &quot;mobile&quot; menu select &quot;Mobile phones&quot;" library="macro" sourcename="Hover to &quot;${control1:[^&quot;]+}&quot; menu and from &quot;${control2:[^&quot;]+}&quot; menu select &quot;${control3:[^&quot;]+}&quot;">
+<doc>To mouse hover on the element and click on the specified subitems</doc>
+<status status="PASS" starttime="20230919 13:19:44.549" endtime="20230919 13:19:46.941"/>
+</kw>
+<status status="PASS" starttime="20230919 13:19:41.190" endtime="20230919 13:19:46.941"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>3sec</arg>
+<arg>Verify the numbers of banners present below See Handset details should not be less than "3"</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Verify the numbers of banners present below See Handset details should not be less than &quot;3&quot;" library="macro" sourcename="Verify the numbers of banners present below See Handset details should not be less than &quot;${control3:[^&quot;]+}&quot;">
+<msg timestamp="20230919 13:19:47.076" level="INFO">The number of banner on ui is 3
+The number if banner present below is not less than 3</msg>
+<status status="PASS" starttime="20230919 13:19:46.942" endtime="20230919 13:19:47.076"/>
+</kw>
+<status status="PASS" starttime="20230919 13:19:46.941" endtime="20230919 13:19:47.076"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>3sec</arg>
+<arg>Scroll down and click View SIM only deals</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Scroll down and click View SIM only deals" library="macro">
+<msg timestamp="20230919 13:19:47.355" level="INFO">click on view sim only</msg>
+<status status="PASS" starttime="20230919 13:19:47.076" endtime="20230919 13:19:47.355"/>
+</kw>
+<status status="PASS" starttime="20230919 13:19:47.076" endtime="20230919 13:19:47.355"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>3sec</arg>
+<arg>Validate the title for new page</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Validate the title for new page" library="macro">
+<msg timestamp="20230919 13:19:51.363" level="INFO">The title of the page is SIM Only Deals | Compare SIMO Plans &amp; Contracts | BT Mobile
+Validate title</msg>
+<status status="PASS" starttime="20230919 13:19:47.355" endtime="20230919 13:19:51.363"/>
+</kw>
+<status status="PASS" starttime="20230919 13:19:47.355" endtime="20230919 13:19:51.363"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>3sec</arg>
+<arg>Validate "Enjoy 30% off &amp; double data"</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Validate &quot;Enjoy 30% off &amp; double data&quot;" library="macro" sourcename="Validate &quot;${control1:[^&quot;]+}&quot;">
+<msg timestamp="20230919 13:19:51.395" level="INFO">validate string</msg>
+<status status="PASS" starttime="20230919 13:19:51.363" endtime="20230919 13:19:51.395"/>
+</kw>
+<status status="PASS" starttime="20230919 13:19:51.363" endtime="20230919 13:19:51.395"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>3x</arg>
+<arg>3sec</arg>
+<arg>Close the browser &amp; exit</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<kw name="Close the browser &amp; exit" library="macro">
+<status status="PASS" starttime="20230919 13:19:51.395" endtime="20230919 13:19:54.225"/>
+</kw>
+<status status="PASS" starttime="20230919 13:19:51.395" endtime="20230919 13:19:54.225"/>
+</kw>
+<status status="PASS" starttime="20230919 13:19:34.959" endtime="20230919 13:19:54.225"/>
+</test>
+<status status="PASS" starttime="20230919 13:19:34.436" endtime="20230919 13:19:54.225"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Testcase">Testcase</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
